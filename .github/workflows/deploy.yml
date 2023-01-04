@@ -8,8 +8,8 @@ on:
 env:
   PROJECT_NAME: cicd_project
   BUCKET_NAME: jaebalcicd
-  CODE_DEPLOY_APP_NAME: gitssum-server
-  DEPLOYMENT_GROUP_NAME: gitssum-code-deploy
+  CODE_DEPLOY_APP_NAME: cicdapp
+  DEPLOYMENT_GROUP_NAME: cicdapp_deploy
 
 jobs:
   build:
